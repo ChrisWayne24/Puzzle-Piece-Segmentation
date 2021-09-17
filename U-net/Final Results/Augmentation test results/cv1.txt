@@ -1,0 +1,203 @@
+This file contains results from training and testing the model with no augmentation
+and a learning rate of 0.01.
+
+False
+0.01
+
+Train (epoch 1/1) [0/1000 (0%)]	Loss: 1.340438	Accuracy: 21.26312255859375
+Train (epoch 1/1) [100/1000 (10%)]	Loss: 0.073620	Accuracy: 97.76611328125
+Train (epoch 1/1) [200/1000 (20%)]	Loss: 0.070544	Accuracy: 99.273681640625
+Train (epoch 1/1) [300/1000 (30%)]	Loss: 0.078485	Accuracy: 98.76708984375
+Train (epoch 1/1) [400/1000 (40%)]	Loss: 0.129128	Accuracy: 93.682861328125
+Train (epoch 1/1) [500/1000 (50%)]	Loss: 0.058428	Accuracy: 98.5809326171875
+Train (epoch 1/1) [600/1000 (60%)]	Loss: 0.032144	Accuracy: 99.76043701171875
+Train (epoch 1/1) [700/1000 (70%)]	Loss: 0.033691	Accuracy: 99.6734619140625
+Train (epoch 1/1) [800/1000 (80%)]	Loss: 0.067746	Accuracy: 98.14910888671875
+Train (epoch 1/1) [900/1000 (90%)]	Loss: 0.026364	Accuracy: 99.6734619140625
+
+/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py:3063: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[544631   4056]
+ [   957 236788]]
+---
+786432 pixels processed
+Total accuracy : 99.36256408691406%
+---
+F1Score :
+background: 0.9954188846496539
+foreground: 0.9895254592144825
+---
+Kappa: 0.9849446199509636
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[544631   4056]
+ [   957 236788]]
+---
+786432 pixels processed
+Total accuracy : 99.36256408691406%
+---
+F1Score :
+background: 0.9954188846496539
+foreground: 0.9895254592144825
+---
+Kappa: 0.9849446199509636
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[616486   3680]
+ [  1024 165242]]
+---
+786432 pixels processed
+Total accuracy : 99.40185546875%
+---
+F1Score :
+background: 0.9961993284187461
+foreground: 0.985966084704703
+---
+Kappa: 0.9821657163843206
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[1161117    7736]
+ [   1981  402030]]
+---
+1572864 pixels processed
+Total accuracy : 99.38220977783203%
+---
+F1Score :
+background: 0.9958331028396394
+foreground: 0.9880593823615069
+---
+Kappa: 0.9838927663179354
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[377240 202701]
+ [   407 206084]]
+---
+786432 pixels processed
+Total accuracy : 74.17348225911459%
+---
+F1Score :
+background: 0.7878962560098915
+foreground: 0.6698912358031193
+---
+Kappa: 0.493002148038336
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[1538357  210437]
+ [   2388  608114]]
+---
+2359296 pixels processed
+Total accuracy : 90.97930060492621%
+---
+F1Score :
+background: 0.9353024846338651
+foreground: 0.8510727033916866
+---
+Kappa: 0.7883242204205174
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[583299   1253]
+ [  1757 200123]]
+---
+786432 pixels processed
+Total accuracy : 99.6172587076823%
+---
+F1Score :
+background: 0.9974264881909153
+foreground: 0.9925357589223719
+---
+Kappa: 0.9899622525192886
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[2121656  211690]
+ [   4145  808237]]
+---
+3145728 pixels processed
+Total accuracy : 93.13879013061523%
+---
+F1Score :
+background: 0.951597244943932
+foreground: 0.8822060034633896
+---
+Kappa: 0.8346748399307805
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[507973  43287]
+ [   721 234451]]
+---
+786432 pixels processed
+Total accuracy : 94.40409342447917%
+---
+F1Score :
+background: 0.9584812171094217
+foreground: 0.9141993722095494
+---
+Kappa: 0.8731034985313579
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[2629629  254977]
+ [   4866 1042688]]
+---
+3932160 pixels processed
+Total accuracy : 93.39185078938803%
+---
+F1Score :
+background: 0.9529193250857341
+foreground: 0.889203097877
+---
+Kappa: 0.8428817701995025
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[602139  10063]
+ [   404 173826]]
+---
+786432 pixels processed
+Total accuracy : 98.66905212402344%
+---
+F1Score :
+background: 0.9913833767580851
+foreground: 0.9707722851901184
+---
+Kappa: 0.9621637764083599
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[3231768  265040]
+ [   5270 1216514]]
+---
+4718592 pixels processed
+Total accuracy : 94.27138434516058%
+---
+F1Score :
+background: 0.9598580068507655
+foreground: 0.900008803930548
+---
+Kappa: 0.8603843562881146
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[568090   6076]
+ [   567 211699]]
+---
+786432 pixels processed
+Total accuracy : 99.15529886881511%
+---
+F1Score :
+background: 0.9941872013426402
+foreground: 0.9845526356789236
+---
+Kappa: 0.9787411498152543
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[3799858  271116]
+ [   5837 1428213]]
+---
+5505024 pixels processed
+Total accuracy : 94.96908641996838%
+---
+F1Score :
+background: 0.9648388170177012
+foreground: 0.9116120328884568
+---
+Kappa: 0.8768021299021146
+

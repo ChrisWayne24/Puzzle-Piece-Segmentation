@@ -1,0 +1,201 @@
+This file contains results from training and testing the model with no augmentation
+and a learning rate of 0.05.
+
+False
+0.05
+
+Train (epoch 1/1) [0/1000 (0%)]	Loss: 0.856929	Accuracy: 43.12286376953125
+Train (epoch 1/1) [100/1000 (10%)]	Loss: 0.118913	Accuracy: 99.1943359375
+Train (epoch 1/1) [200/1000 (20%)]	Loss: 0.056311	Accuracy: 97.18170166015625
+Train (epoch 1/1) [300/1000 (30%)]	Loss: 0.075763	Accuracy: 96.36077880859375
+Train (epoch 1/1) [400/1000 (40%)]	Loss: 0.159395	Accuracy: 98.46649169921875
+Train (epoch 1/1) [500/1000 (50%)]	Loss: 0.046175	Accuracy: 98.20098876953125
+Train (epoch 1/1) [600/1000 (60%)]	Loss: 0.031779	Accuracy: 97.71575927734375
+Train (epoch 1/1) [700/1000 (70%)]	Loss: 0.023058	Accuracy: 99.79400634765625
+Train (epoch 1/1) [800/1000 (80%)]	Loss: 0.022437	Accuracy: 99.395751953125
+Train (epoch 1/1) [900/1000 (90%)]	Loss: 0.024820	Accuracy: 99.74212646484375
+
+
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[493243  55444]
+ [     2 237743]]
+---
+786432 pixels processed
+Total accuracy : 92.94967651367188%
+---
+F1Score :
+background: 0.9467853948242304
+foreground: 0.8955685473845991
+---
+Kappa: 0.8432250585211959
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[493243  55444]
+ [     2 237743]]
+---
+786432 pixels processed
+Total accuracy : 92.94967651367188%
+---
+F1Score :
+background: 0.9467853948242304
+foreground: 0.8955685473845991
+---
+Kappa: 0.8432250585211959
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[490723 129443]
+ [     0 166266]]
+---
+786432 pixels processed
+Total accuracy : 83.54047139485678%
+---
+F1Score :
+background: 0.88347800725365
+foreground: 0.7198051842632177
+---
+Kappa: 0.6158260329253825
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[983966 184887]
+ [     2 404009]]
+---
+1572864 pixels processed
+Total accuracy : 88.24507395426433%
+---
+F1Score :
+background: 0.914117801712265
+foreground: 0.8137902139878156
+---
+Kappa: 0.7321906655880924
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[438131 141810]
+ [    23 206468]]
+---
+786432 pixels processed
+Total accuracy : 81.96500142415366%
+---
+F1Score :
+background: 0.8606878532946336
+foreground: 0.7443386346389218
+---
+Kappa: 0.618601834854761
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[1422097  326697]
+ [     25  610477]]
+---
+2359296 pixels processed
+Total accuracy : 86.15171644422743%
+---
+F1Score :
+background: 0.8969628965257989
+foreground: 0.7888950917375471
+---
+Kappa: 0.6925436214497741
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[577650   6902]
+ [   303 201577]]
+---
+786432 pixels processed
+Total accuracy : 99.0838368733724%
+---
+F1Score :
+background: 0.9938021771949368
+foreground: 0.9824422030466007
+---
+Kappa: 0.9762465485655885
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[1999747  333599]
+ [    328  812054]]
+---
+3145728 pixels processed
+Total accuracy : 89.38474655151367%
+---
+F1Score :
+background: 0.9229414820300174
+foreground: 0.8294581046814792
+---
+Kappa: 0.7555988280232204
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[335272 215988]
+ [   216 234956]]
+---
+786432 pixels processed
+Total accuracy : 72.50823974609375%
+---
+F1Score :
+background: 0.7561832673995318
+foreground: 0.6848871036384518
+---
+Kappa: 0.48080106938962563
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[2335019  549587]
+ [    544 1047010]]
+---
+3932160 pixels processed
+Total accuracy : 86.00944519042969%
+---
+F1Score :
+background: 0.8946143314517212
+foreground: 0.7919441817052052
+---
+Kappa: 0.6932576015872092
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[524411  87791]
+ [     6 174224]]
+---
+786432 pixels processed
+Total accuracy : 88.8360341389974%
+---
+F1Score :
+background: 0.9227559982720683
+foreground: 0.7987438251441277
+---
+Kappa: 0.7257619173486127
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[2859430  637378]
+ [    550 1221234]]
+---
+4718592 pixels processed
+Total accuracy : 86.48054334852431%
+---
+F1Score :
+background: 0.8996461735077527
+foreground: 0.7929071457046432
+---
+Kappa: 0.6987916307098354
+----------------------------------------------Single image accuracy------------------------------------------
+Confusion matrix :
+[[412649 161517]
+ [     0 212266]]
+---
+786432 pixels processed
+Total accuracy : 79.46205139160156%
+---
+F1Score :
+background: 0.8363249443918059
+foreground: 0.7243967654581784
+---
+Kappa: 0.5796819923660741
+----------------------------------------------Global accuracy------------------------------------------------
+Confusion matrix :
+[[3272079  798895]
+ [    550 1433500]]
+---
+5505024 pixels processed
+Total accuracy : 85.47790164039249%
+---
+F1Score :
+background: 0.8911372251468387
+foreground: 0.7819563637256253
+---
+Kappa: 0.6806530294037904
+
