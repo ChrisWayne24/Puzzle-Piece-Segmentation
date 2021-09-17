@@ -1,0 +1,4 @@
+The code is fully implemented in this one jupyter notebook. To run the code, you would first
+need to change the location of the "MAIN_FOLDER" to be the correct location of the puzzle 
+piece dataset. Once this is done, all cells round be run for the full implementation of
+the GMM.
