@@ -1,0 +1,3 @@
+This folder contains the augmentation (with and without) test results,
+the prediction masks from the final model, cross validation results, Loss graphs,
+and the final results of the Unet model.
