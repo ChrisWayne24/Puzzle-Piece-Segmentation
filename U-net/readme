@@ -1,0 +1,8 @@
+This folder contains a Final Results folder and the UnetMain.ipynb
+which is the only code file which contains the model and all relevant functions.
+
+To run the notebook change all required path variables to where the puzzle
+dataset has been stored and where the predicted output should be stored.
+
+Cross validation is performed by commenting out the the training and testing blocks
+and running the cross validation block.
